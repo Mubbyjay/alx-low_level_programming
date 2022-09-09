@@ -8,8 +8,8 @@ int main(void)
 {
 	int mub = '0';
 
-	for (num = '0'; num <= '9'; mum++)
-		putchar(num);
+	for (mub = '0'; mub <= '9'; mub++)
+		putchar(mub);
 
 	putchar('\n');
 	return (0);
