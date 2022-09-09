@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	int num = '0';
-	char alphas = 'a';
+	int mub = '0';
+	char alpha = 'a';
 
-	for (num = '0'; num <= '9'; num++)
-		puthchar(num);
-	for (alphas = 'a'; alphas <= 'f'; alphas++)
-		putchar(alphas);
+	for (mub = '0'; mub <= '9'; mub++)
+		puthchar(mub);
+	for (alpha = 'a'; alpha <= 'f'; alpha++)
+		putchar(alpha);
 	putchar('\n');
 	return (0);
 }
