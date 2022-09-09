@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-	int num = '0';
+	int mub = '0';
 	char alpha = 'a';
 
-	for (num = '0'; num <= '9'; num++)
-		puthchar(num);
+	for (mub = '0'; mub <= '9'; mub++)
+		puthchar(mub);
 	for (alpha = 'a'; alpha <= 'f'; alpha++)
 		putchar(alpha);
 
