@@ -14,7 +14,7 @@ int main(void)
 		{
 			alpha++;
 		}
-		else if (alpha == 'a')
+		else if (alpha == 'e')
 		{
 			alpha++;
 		}
