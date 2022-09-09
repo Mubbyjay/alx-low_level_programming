@@ -10,7 +10,7 @@ int main(void)
 	char alpha = 'a';
 
 	for (mub = '0'; mub <= '9'; mub++)
-		puthchar(mub);
+		putchar(mub);
 	for (alpha = 'a'; alpha <= 'f'; alpha++)
 		putchar(alpha);
 
