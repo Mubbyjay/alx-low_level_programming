@@ -1,22 +1,23 @@
-#include "main.hi"
+#include "main.h"
 /**
  * string_toupper - changes all lowercase letters of a string to uppercase.
- * @y: pointer to string.
+ * @x: pointer to string.
  *
  * Return: pointer to uppercase string.
  */
-char *string_toupper(char *y)
+char *string_toupper(char *x)
 {
 	int length;
 
 	length = 0;
-	while (y[length] != '\0')
+
+	while (x[length] != '\0')
 	{
-		if (y[length] >= 97 && y[length] <= 122)
+		if (x[length] >= 97 && x[length] <= 122)
 		{
-			y[length] = y[length] - 32;
+			x[length] = x[length] - 32;
 		}
 		length++;
 	}
-	return (y);
+	return (x);
 }
