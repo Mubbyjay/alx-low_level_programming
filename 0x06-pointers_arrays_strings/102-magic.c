@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/**
+ * main - function that
+ */
 int main(void)
 {
 	int n;
