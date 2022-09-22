@@ -1,8 +1,5 @@
 #include <stdio.h>
 
-/**
- * main - function that adds one line to code
- */
 int main(void)
 {
 	int n;
