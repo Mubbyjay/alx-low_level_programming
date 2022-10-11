@@ -6,7 +6,7 @@
  *    * @str: string to copy
  *     *
  *      * Return: Pointer
- *       */
+ */
 char *_strdup(char *str)
 {
 	int l, i;
