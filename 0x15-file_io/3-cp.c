@@ -52,14 +52,14 @@ int main(int argc, char *argv[])
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 			comp_close(from_fd);
 			comp_close(to_fd);
-			exit(99)
+			exit(99);
 		}
 	}
 	error = comp_close(to_fd);
 	if (error < 0)
 	{
 		comp_close(from_fd);
-		exit(100)
+		exit(100);
 	}
 	error = comp_close(from_fd);
 	if (error < 0)
